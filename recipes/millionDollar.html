@@ -23,8 +23,7 @@
         align-items: center;
     }
 
-    h1,
-    {
+    h1{
         border-bottom: 1px solid black;
     }
 
@@ -38,15 +37,14 @@
     .descripn_contain {
         
         display: flex;
-        margin-top: 1rem;
         padding: 0 4rem;   
      
     }
-
-
-    .descripn_head {
-        margin-bottom: 0px;
+    .descripn_head{
         display: inline;
+    }
+    .descripn_ls .descripn_head{
+        margin-top:0;
     }
 
     .descripn_deets {
@@ -55,7 +53,9 @@
     }
     .ingred_ls{
         margin-left: 1.75rem;
+        margin-top:0;
     }
+    
 </style>
 
 <body>
@@ -73,9 +73,9 @@
         
         <div class="descripn_contain">
             <h2 class="descripn_head">Description</h2>
-            <p class="descripn_deets">Creamy and incredibly savory, it's a casserole that's hard to stop eating. The cottage cheese is the trick to getting such a creamy, melty texture. Using rotisserie chicken is a must for the recipe and helps keep it quick.</p>
+            <p class="descripn_deets">Creamy and incredibly savory, it's a casserole that's hard to stop eating (maybe not that hard, there's a lot of cheese). The cottage cheese is the trick to getting such a creamy, melty texture (also abysmal indigestion). Using rotisserie chicken is a must (meat has to be disoriented, a preamble for your internals after this meal) for the recipe and helps keep it quick.</p>
         </div>
-        <div class="descripn_contain">
+        <div class="descripn_contain descripn_ls">
             <h2 class="descripn_head">Ingredients</h2>
             <ol class="descripn_deets ingred_ls">
                 <li>One</li>
