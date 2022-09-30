@@ -1,38 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1M $ Chicken</title>
+    <title>$1M Chicken</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,400;0,700;0,800;1,400&display=swap"
+        rel="stylesheet">
 </head>
 <style>
-    img{
+    img {
         max-width: 100%;
         max-height: 100%;
     }
-    body{
+
+    body {
+        font-family: 'Source Code Pro', monospace;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    h1{
+
+    h1,
+    {
         border-bottom: 1px solid black;
     }
-    .img_contain{
+
+    .img_contain {
         height: 50vh;
         width: 90%;
         display: flex;
         justify-content: center;
     }
-    
+
+    .descripn_contain {
+        
+        display: flex;
+        margin-top: 1rem;
+        padding: 0 4rem;   
+     
+    }
+
+
+    .descripn_head {
+        margin-bottom: 0px;
+        display: inline;
+    }
+
+    .descripn_deets {
+            padding: 0.6rem;
+        ;
+    }
+    .ingred_ls{
+        margin-left: 1.75rem;
+    }
 </style>
+
 <body>
     <h1>Million Dollar Chicken</h1>
-    
-    <div class="img_contain">
-        <img src="https://www.allrecipes.com/thmb/849QJ-p_CxIHkqWtOEEWIHXgtYI=/2250x0/filters:no_upscale():max_bytes(150000):strip_icc():gifv():format(webp)/MillionDollarChickenCasserole-ddmfs-4X3-2912-822dda92116b4ccdbebfb273ae90687b.jpg" alt="piece of the chicken dish held by a fork">
-    </div>
-    
+
+    <header>
+        <div class="img_contain">
+            <img src="https://www.allrecipes.com/thmb/849QJ-p_CxIHkqWtOEEWIHXgtYI=/2250x0/filters:no_upscale():max_bytes(150000):strip_icc():gifv():format(webp)/MillionDollarChickenCasserole-ddmfs-4X3-2912-822dda92116b4ccdbebfb273ae90687b.jpg"
+                alt="piece of the chicken dish held by a fork">
+        </div>
+
+    </header>
+
+    <section class="recipe_deets">
+        
+        <div class="descripn_contain">
+            <h2 class="descripn_head">Description</h2>
+            <p class="descripn_deets">Creamy and incredibly savory, it's a casserole that's hard to stop eating. The cottage cheese is the trick to getting such a creamy, melty texture. Using rotisserie chicken is a must for the recipe and helps keep it quick.</p>
+        </div>
+        <div class="descripn_contain">
+            <h2 class="descripn_head">Ingredients</h2>
+            <ol class="descripn_deets ingred_ls">
+                <li>One</li>
+                <li>Million</li>
+                <li>Dollar</li>
+                <li>(Canadian Dollars accepted)</li>
+                <li>Chicken</li>
+            </ol>
+        </div>
+    </section>
+
+
+
 </body>
+
 </html>
